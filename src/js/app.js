@@ -1,10 +1,10 @@
-import lifeLine from './lifeline';
+import healthColor from './lifeline';
 import sort from './matchers';
 
 console.log('app worked');
 
 const player = { name: 'Маг', health: 90 };
-lifeLine(player);
+healthColor(player);
 
 const players = [
   { name: 'мечник', health: 100 },
