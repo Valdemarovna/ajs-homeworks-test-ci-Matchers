@@ -1,7 +1,7 @@
 {
-  "name": "defender-game",
+  "name": "ajs",
   "version": "1.0.0",
-  "description": "Browser based game",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start server": "http-server dist",
@@ -13,8 +13,8 @@
   "keywords": [
     "game"
   ],
-  "author": "Iryna Koval",
-  "license": "ISC",
+  "author": "coursar",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
