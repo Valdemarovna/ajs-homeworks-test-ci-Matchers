@@ -1,17 +1,13 @@
 // const player = { name: 'Маг', health: 90 };
 
-export default function lifeLine(life) {
-  let result = '';
+export default function healthColor(health)  {
+  if (health.health > 50) {
+    return 'healthy';
+  }
 
-  if (life.health > 50) {
-    result = 'healthy';
+  if (health.health < 15) {
+    return 'critical';
   }
-  if (life.health <= 50 && life.health >= 15) {
-    result = 'wounded';
-  }
-  if (life.health < 15) {
-    result = 'critical';
-  }
-  console.log(result);
-  return result;
+
+  return 'wounded';
 }
